@@ -1,0 +1,33 @@
+body, html {
+  height: 100%;
+    color: blue;
+    margin: 0;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+/* Banner */
+.banner {
+  /* The image used */
+  background-image: url("../img/banner2.jpg");
+    
+  /* Full height */
+  height: 40%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#title{
+    width: 100%;
+    text-align: center;
+    font-size: 10vh;
+    margin-top: 0;
+    padding-top: 4%;
+}

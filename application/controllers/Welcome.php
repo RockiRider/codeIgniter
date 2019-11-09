@@ -24,15 +24,4 @@ class Welcome extends CI_Controller {
 	}
 }
 
-// Hello World is displayed on /notes
-class Notes extends CI_Controller{
-    public function index(){
-        echo "Hello World";
-    }
-    
-    //Someone visiting /notes/ still sees the hello world
-    public function view($ID= null){
-        if($ID==null) echo "Note number not specified";
-        else echo "You asked for note $ID";
-    }
-}
+
